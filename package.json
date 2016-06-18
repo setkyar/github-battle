@@ -4,8 +4,8 @@
   "description": "Just working on exercises",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "react-dom": "^15.1.0"
   },
   "devDependencies": {
+    "babel": "^6.5.2",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
