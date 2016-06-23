@@ -1,5 +1,5 @@
 var React = require('react');
-var ConfirmBattle = require('../components/ConfirmBattle')
+var ConfirmBattle = require('../components/ConfirmBattle');
 
 var ConfirmBattleContainer = React.createClass({
 	contextTypes: {
@@ -12,7 +12,9 @@ var ConfirmBattleContainer = React.createClass({
 		}
 	},
 	render: function() {
-		<ConfirmBattle />
+		return (
+			<ConfirmBattle />
+		);
 	}
 });
 
